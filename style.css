@@ -1,0 +1,621 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(252, 124, 20);
+    padding: 15px;
+    font-size: 14px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.icons {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 42%;
+}
+
+#icons {
+    display: none;
+}
+
+nav .container ul{
+    display: flex;
+    list-style: none;
+}
+
+nav .container ul li {
+    margin-left: 50px;
+}
+
+nav .container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .container .box {
+    padding: 10px 18px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+header .container-1 {
+    color: #fff;
+    background-color: rgb(252, 124, 20);
+    padding: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container-1 h1{
+    font-size: 4.5em;
+}
+
+.container-1 p{
+    padding: 25px 0;
+    font-weight: lighter;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container-1 .box {
+    background-color: #fff;
+    padding: 10px 0px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 78%;
+    text-align: center;
+}
+
+header img {
+    width: 25em;
+    border-radius: 10px;
+}
+
+.circle1 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #000;
+    display: inline-flex;
+    margin-inline-start: 50%;
+}
+.circle2 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-flex;
+}
+.circle3 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-flex;
+}
+
+.first-section {
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 229, 216);
+}
+
+.part {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: grey;
+}
+
+.first-part {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-part img {
+    width: 350px;
+}
+
+.second-part h1 {
+    font-weight: 500;
+}
+
+.second-part p {
+    font-size: smaller;
+    padding: 20px 0;
+    width: 25em;
+}
+
+.second-part a {
+    border: 1px outset white;
+    border-radius: 20px;
+    padding: 10px 18px;
+}
+
+.third-section {
+    background-color: rgb(236, 218, 203);
+    padding: 5em;
+}
+
+.third-section button {
+    background-color: black;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.third-section h1 {
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.third-section .option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.third-section .option img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.third-section h4 {
+    padding: 14px 0; 
+    font-weight: 600;
+}
+
+.third-section p {
+    width: 95%;
+    font-weight: 400;
+    font-size: smaller;
+    line-height: 15px;
+    padding-bottom: 20px;
+}
+
+.third-section .option a{
+    text-decoration: underline;
+}
+
+.third-section .explore{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #fff;
+    color: black;
+    padding: 10px 0;
+    margin-left: 42%;
+    margin-right: 42%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.fourth-section {
+    padding: 20px;
+}
+
+.fourth-section .bracket {
+    width: 80%;
+    height: 35%;
+    color: #fff;
+    border-radius: 20px;
+    background: linear-gradient(
+        to right,
+        orange,
+        rgb(247, 140, 101),
+        orange
+
+    );
+    text-align: center;
+    padding: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourth-section .bracket h1 {
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+.fourth-section .bracket a {
+    font-size: smaller;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.quote img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+.quote button {
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    margin-inline-start: 70px;
+    border-radius: 15px;
+}
+
+.quote .job {
+    padding: 30px 70px;
+    font-weight: 600;
+    font-size: small;
+}
+
+.quote h4 {
+    color: rgb(75, 69, 69);
+    padding: 20px 70px 10px;
+}
+
+.quote .apple {
+    color: grey;
+    padding: 0 70px;
+    padding-bottom: 20px;
+    font-size: smaller;
+}
+
+.quote .dot1 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-flex;
+    margin-inline-start: 70px;
+}
+.quote .dot2 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(252, 124, 20);
+    display: inline-flex;
+}
+.quote .dot3 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-flex;
+}
+
+.sixth-section {
+    background-color: rgb(236, 218, 203);
+    padding: 60px;
+}
+
+.sixth-part {
+    width: 90%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.sixth-part img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.sixth-part h4 {
+    color: gray;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+.sixth-part .skincare {
+    color: gray;
+    font-weight: lighter;
+    font-size: xx-small;
+}
+
+.sixth-part .job {
+    padding: 0 70px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.sixth-section .circle2 {
+    color: grey;
+}
+.circles .circle1 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-flex;
+    margin-inline-start: 50%;
+}
+.circles .circle2 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-flex;
+}
+.circles .circle3 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-flex;
+}
+
+.last-section {
+    background-color: rgb(252, 124, 20);
+    padding: 60px;
+}
+
+.subscribe {
+    width: 80%;
+    height: 35%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe h1 {
+    font-size: 2rem;
+}
+
+.subscribe .caption {
+    padding: 10px;
+    color: #808080;
+    font-weight: 600;
+}
+
+input[type="email"] {
+    margin-top: 10px;
+    padding: 8px 40px 8px 8px;
+    text-align: start;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 8px;
+    background-color: rgb(252, 124, 20);
+    color: #fff;
+    border: 1px solid rgb(252, 124, 20);
+    border-radius: 4px;
+}
+
+.subscribe .data {
+    color: #808080;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.first-footer {
+    padding: 30px 90px;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.first-footer .info {
+    display: flex;
+    text-align: center;
+}
+
+.first-footer .logo {
+    padding-right: 50px;
+}
+
+.first-footer .logo p {
+    font-size: smaller;
+    font-weight: 100;
+    color: rgb(75, 69, 69);
+    padding: 8px 0;
+}
+
+.first-footer .info h1{
+    padding-bottom: 20px;
+}
+
+.first-footer .first-div {
+    padding-right: 50px;
+}
+
+.first-footer .second-div {
+    padding-right: 50px;
+}
+
+.first-footer .info ul {
+    padding-bottom: 15px;
+    font-size: smaller;
+    text-align: start;
+}
+
+.first-footer .info li a:hover {
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.first-footer .first-logo {
+    text-align: start;
+}
+
+.first-footer .second-logo {
+    text-align: start;
+}
+
+.first-footer .contact {
+    text-align: start;
+}
+
+.first-footer .contact p {
+    padding: 5px 0;
+    line-height: 1.5;
+}
+
+.last-footer {
+    background-color: rgb(252, 124, 20);
+    color: #fff;
+    padding: 25px;
+}
+
+.last-footer .last-div {
+    display: flex;
+    justify-content: center;
+}
+
+.last-footer .copyright {
+    padding-right: 80px;
+}
+
+.last-footer .links a{
+    color: #fff;
+    padding-left: 20px;
+}
+
+@media (max-width: 787px) {
+
+    .logo img {
+        width: 120px;
+    }
+
+    .icons {
+        display: inline-flex;
+    }
+
+    #check:checked~.icons {
+        display: block;
+    }
+
+    .container .navbars {
+        position: fixed;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        backdrop-filter: blur(50px);
+    }
+
+    .navbars a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav .container ul {
+        display: block;
+    }
+
+    header .container-1 {
+        padding: 3em;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header .container-1 h1{
+        font-size: 3.5em;
+    }
+    
+    header .container-1 .box1 {
+        padding-top: 5em;
+    }
+
+    header .container-1 .box {
+        margin-bottom: 20px;
+    }
+
+    .first-part {
+        display: block;
+        padding: 20px;
+    }
+
+    .first-section {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .part {
+        width: 50px;
+        height: 50px;
+    }
+
+    .third-section .option {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+    
+    .third-section .explore {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .quote {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .quote button {
+        margin-top: 10px;
+    }
+
+    .sixth-part {
+        display: block;
+        width: auto;
+        height: auto;
+}
+    .sixth-part .job {
+        padding: auto;
+        font-weight: bold;
+        font-size: smaller;
+    }
+
+    .subscribe {
+        width: auto;
+        height: auto;
+    }
+
+    .first-footer .info{
+        display: block;
+    }
+}
